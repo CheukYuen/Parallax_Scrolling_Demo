@@ -1,0 +1,375 @@
+body {
+    background: rgb(136, 204, 62);
+
+}
+
+.container {
+    max-width: 99%
+}
+
+.bg {
+    background: url('../images/01_02_real friends_2.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.fix-row {
+    width: 900px;
+
+}
+
+.page02 {
+    background: url("../images/02_jsm_cinequest23-150.jpg") center;
+    background-size: cover;
+
+}
+
+.page04 {
+    background: url("../images/09_ea_monday_cinequest2014-33.jpg") center ;
+    background-size: cover;
+}
+
+.page07{
+    background: url("../images/12_ci-0452_lgcrop.jpg") right bottom ;
+    background-size: cover;
+
+}
+
+#page01_content {
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    bottom: 0;
+    background: rgb(170, 166, 65);
+
+}
+
+/*.para_page01_logo{*/
+/*margin: 0 auto;*/
+/*}*/
+
+.img-center {
+    margin: 0 auto;
+}
+
+p {
+    font-family:  'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.p_page01_title1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 28px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+.page01_presents p {
+
+    left: 100px;
+
+}
+
+.page01_creatics {
+    margin-left: 100px;
+}
+
+.p_page01_title2 {
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-weight: 400;
+
+}
+
+.p_page03_title1 {
+    font-size: 36px;
+    line-height: 43px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.p_page03_title2 {
+    font-size: 42px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+
+}
+
+.p_page06_title1{
+    font-size: 17px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.p_page08_title1 {
+    text-decoration: underline;
+}
+
+.p_page01_text {
+
+    line-height: 18px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.page01_digital{
+    margin-left: 120px;
+
+}
+
+
+
+.img-list {
+    margin: 0 auto;
+    text-align: center;
+    width: 990px;
+}
+
+
+.img-box {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.img-box-2{
+    display: inline-block;
+    text-align: center;
+    /*width: 445px;*/
+
+}
+
+.img-box-3{
+    display: inline-block;
+    text-align: center;
+    width: 445px;
+
+}
+
+.img-size {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.img-size img {
+
+    width: 187px;
+    height: 117px;
+    border: 4px solid #000000;
+}
+
+
+.img-size-2 {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.img-size-3{}
+
+.img-size-3 img {
+    width: 406px;
+    height: 250px;
+    border: 4px solid #000000;
+    margin: 0 20px;
+}
+
+.img-size-4 {
+}
+
+.img-size-4 img{
+    width: 190px;
+    height: 190px;
+    border: 4px solid #000000;
+    margin: 0 20px;
+}
+
+.img-arrow-down {
+    display: block;
+    margin-left: 120px;
+
+
+}
+
+.img-large-logo img{
+
+    margin-right: 20px;
+
+}
+
+.ptp-logo img{
+
+}
+
+.img-size p {
+    width: 187px;
+    height: 117px;
+    text-align: center;
+
+}
+
+.text-list {
+    margin: 0 auto;
+    text-align: center;
+    width: 990px;
+}
+
+
+
+.text-box-1 {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    width: 187px;
+    height: 117px;
+}
+
+.text-size {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.text-size-1{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.text-size-2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 22px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+
+hr {
+    margin: 0 10px 5px;
+    width: 30%;
+    display: inline-block
+}
+
+.page03_title01 {
+    width: 990px;
+    text-align: center;
+
+}
+
+.page03_title01_font{
+    font-size: 15px;
+    line-height: 18px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.text-box-2{
+
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    width: 350px;
+    height: 117px;
+
+}
+
+
+.text-box-3{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 405px;
+    height: 72px;
+
+}
+
+.text-box-4{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 405px;
+    height: 50px;
+
+}
+.text-box-5{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 540px;
+    height: 72px;
+}
+
+
+.text-box-6{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 720px;
+    height: 60px;
+}
+
+.text-box-7{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 900px;
+    height: 60px;
+}
+
+.text-box-8{
+
+}
+
+.text-size-3{
+
+    line-height: 18px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.form-control {
+    width: 500px;
+}
