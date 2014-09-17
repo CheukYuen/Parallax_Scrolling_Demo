@@ -36,6 +36,14 @@ body {
 
 }
 
+.black-background {
+    background-color: #000000;
+}
+
+.white-background {
+    background-color: #ffffff;
+}
+
 .page02 {
     background: url("../images/02_jsm_cinequest23-150.jpg") center;
     background-size: cover;
@@ -43,12 +51,12 @@ body {
 }
 
 .page04 {
-    background: url("../images/09_ea_monday_cinequest2014-33.jpg") center ;
+    background: url("../images/09_ea_monday_cinequest2014-33.jpg") center;
     background-size: cover;
 }
 
-.page07{
-    background: url("../images/12_ci-0452_lgcrop.jpg") right bottom ;
+.page07 {
+    background: url("../images/12_ci-0452_lgcrop.jpg") right bottom;
     background-size: cover;
 
 }
@@ -71,7 +79,7 @@ body {
 }
 
 p {
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
 
@@ -79,7 +87,7 @@ p {
     color: #FFFFFF;
     font-size: 25px;
     line-height: 28px;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
 }
@@ -105,7 +113,7 @@ p {
 .p_page03_title1 {
     font-size: 36px;
     line-height: 43px;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
@@ -117,7 +125,7 @@ p {
 
 }
 
-.p_page06_title1{
+.p_page06_title1 {
     font-size: 17px;
     font-family: 'Architects Daughter', sans-serif;
     font-weight: 400;
@@ -135,17 +143,15 @@ p {
     color: #FFFFFF;
     font-size: 16px;
     text-align: center;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 
 }
 
-.page01_digital{
+.page01_digital {
     margin-left: 120px;
 
 }
-
-
 
 .img-list {
     margin: 0 auto;
@@ -154,23 +160,42 @@ p {
 }
 
 
+
 .img-box {
     display: inline-block;
     text-align: center;
     margin: 20px;
 }
 
-.img-box-2{
+.page03-img-box{
+    margin: 20px 20px 7px 20px;
+}
+
+.img-box-2 {
     display: inline-block;
     text-align: center;
     /*width: 445px;*/
 
 }
 
-.img-box-3{
+.img-box-3 {
     display: inline-block;
     text-align: center;
     width: 445px;
+
+}
+
+.img-box-4 {
+    display: inline-block;
+    text-align: left;
+
+}
+
+#img-box-5 {
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    left: 90px;
+    position: absolute;
 
 }
 
@@ -186,25 +211,39 @@ p {
     border: 4px solid #000000;
 }
 
-
 .img-size-2 {
     display: table-cell;
     vertical-align: middle;
 
 }
-.img-size-3{}
+
+.img-size-3 {
+}
 
 .img-size-3 img {
     width: 406px;
     height: 250px;
     border: 4px solid #000000;
-    margin: 0 20px;
+    margin: 0 0;
 }
+
+.page05-img-left-margin {}
+
+.page05-img-left-margin img{
+    margin-right: 33px;
+}
+
+.page05-img-right-margin {}
+
+.page05-img-right-margin img{
+    margin-left: 33px;
+}
+
 
 .img-size-4 {
 }
 
-.img-size-4 img{
+.img-size-4 img {
     width: 190px;
     height: 190px;
     border: 4px solid #000000;
@@ -215,16 +254,15 @@ p {
     display: block;
     margin-left: 120px;
 
-
 }
 
-.img-large-logo img{
+.img-large-logo img {
 
     margin-right: 20px;
 
 }
 
-.ptp-logo img{
+.ptp-logo img {
 
 }
 
@@ -241,16 +279,6 @@ p {
     width: 990px;
 }
 
-
-
-.text-box-1 {
-    display: inline-block;
-    text-align: center;
-    margin: 0 20px;
-    width: 187px;
-    height: 117px;
-}
-
 .text-size {
     display: table-cell;
     vertical-align: middle;
@@ -261,7 +289,17 @@ p {
 
 }
 
-.text-size-1{
+.page08-text-size{
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.page08-text-size-title{
+    font-weight: 700;
+}
+
+.text-size-1 {
     display: table-cell;
     vertical-align: middle;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -270,21 +308,66 @@ p {
     font-weight: 700;
 }
 
-.text-size-2{
+.text-size-2 {
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 22px;
     font-size: 20px;
     text-align: center;
     font-weight: 300;
+    color: #000000;
 
 }
 
+.text-size-3 {
 
+    line-height: 18px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.text-size-4 {
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 40px;
+
+}
+
+#text-size-5 {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 40px;
+}
 
 hr {
     margin: 0 10px 5px;
-    width: 30%;
-    display: inline-block
+    width: 33%;
+    display: inline-block;
+
+}
+
+.page03 hr {
+    border-color: #000000;
+}
+
+.page05 hr {
+    border-color: #000000;
+}
+
+.page06 hr {
+    border-color: #000000;
 }
 
 .page03_title01 {
@@ -293,16 +376,37 @@ hr {
 
 }
 
-.page03_title01_font{
+.page03_title01_font {
     font-size: 15px;
     line-height: 18px;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 
 }
 
+.page08_title01_font {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 
-.text-box-2{
+}
+
+.text-box-1 {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    width: 187px;
+    height: 117px;
+}
+
+.page03_text_box{
+    height: 110px;
+
+}
+
+.text-box-2 {
 
     display: inline-block;
     text-align: center;
@@ -312,8 +416,18 @@ hr {
 
 }
 
+.page08-text-box-width{
+    width: 430px;
+    height: 130px;
+}
 
-.text-box-3{
+.page03-text-box-margin{
+   margin:0 20px 5px 20px;
+}
+
+
+
+.text-box-3 {
     display: inline-block;
     text-align: center;
     margin: 0;
@@ -322,7 +436,7 @@ hr {
 
 }
 
-.text-box-4{
+.text-box-4 {
     display: inline-block;
     text-align: center;
     margin: 0;
@@ -330,7 +444,8 @@ hr {
     height: 50px;
 
 }
-.text-box-5{
+
+.text-box-5 {
     display: inline-block;
     text-align: center;
     margin: 0;
@@ -338,8 +453,7 @@ hr {
     height: 72px;
 }
 
-
-.text-box-6{
+.text-box-6 {
     display: inline-block;
     text-align: center;
     margin: 0;
@@ -347,7 +461,7 @@ hr {
     height: 60px;
 }
 
-.text-box-7{
+.text-box-7 {
     display: inline-block;
     text-align: center;
     margin: 0;
@@ -355,21 +469,27 @@ hr {
     height: 60px;
 }
 
-.text-box-8{
-
+.text-box-8 {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    width: 325px;
+    height: 117px;
 }
 
-.text-size-3{
-
-    line-height: 18px;
-    color: #FFFFFF;
-    font-size: 16px;
+#text-box-9 {
+    display: inline-block;
     text-align: center;
-    font-family:  'Open Sans', sans-serif;
-    font-weight: 700;
+    /*margin: 0 20px;*/
+    width: 187px;
+    height: 117px;
 
 }
 
 .form-control {
     width: 500px;
+}
+
+.modal-footer {
+    text-align: left;
 }

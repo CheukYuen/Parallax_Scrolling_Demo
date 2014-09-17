@@ -2,11 +2,10 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>jQuery One Page Scroll by Pete R. | The Pete Design</title>
-    <meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design"/>
+    <title>jQuery One Page Scroll</title>
+    <meta name="title" content="jQuery One Page Scroll by Leon Lin"/>
     <meta name="description"
           content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin"/>
-    <link rel="image_src" href="/images/notify_better_image.png"/>
 
     <meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url"/>
     <meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image"/>
@@ -41,9 +40,18 @@
         $(document).ready(function () {
             $(".main").onepage_scroll({
                 sectionContainer: "section",
-                responsiveFallback: 600,
+                responsiveFallback: false,
                 loop: true
             });
+        });
+
+
+        $(document).ready(function () {
+
+            $('.back').click(function (e) {
+                $.fn.moveTo(1);
+            });
+
         });
 
     </script>
@@ -53,7 +61,7 @@
 <div class="main">
 
 
-<section class="page01">
+<section class="page01 black-background">
     <div class="bg">
     </div>
 
@@ -123,7 +131,7 @@
 </section>
 
 
-<section class="page03">
+<section class="page03 white-background">
     <div class="text-list">
         <div style="height: 30px"></div>
 
@@ -135,19 +143,19 @@
 
 
     <div class="img-list">
-        <div class="img-box"><span class="img-size"><img
+        <div class="img-box page03-img-box"><span class="img-size"><img
                 src="images/06_img_4713%202-u163-fr.jpg"/> </span>
 
         </div>
 
-        <div class="img-box"><span class="img-size"><a href="#"><img
+        <div class="img-box page03-img-box"><span class="img-size"><a href="#"><img
                 src="images/05_prisons%20to%20paradise%20-%20approved-u164-fr.jpg"/></a></span></div>
 
-        <div class="img-box"><span class="img-size"><a href="#"><img
+        <div class="img-box page03-img-box"><span class="img-size"><a href="#"><img
                 src="images/03_dsc0959_lgcrop-u165-fr.jpg"/></a></span></div>
 
 
-        <div class="img-box"><span class="img-size"><a href="#"><img
+        <div class="img-box page03-img-box"><span class="img-size"><a href="#"><img
                 src="images/04_mg_cq22-1061-u166-fr.jpg"/></a></span>
         </div>
 
@@ -155,14 +163,14 @@
 
 
     <div class="text-list">
-        <div class="text-box-1"><span class="text-size">Three days of global youth experiencing creative opportunities, inspirational luminaries, plus empowering media and technologies.</span>
+        <div class="text-box-1 page03_text_box"><span class="text-size">Three days of global youth experiencing creative opportunities, inspirational luminaries, plus empowering media and technologies.</span>
         </div>
-        <div class="text-box-1"><span
+        <div class="text-box-1 page03_text_box"><span
                 class="text-size">Multiple venues from San Francisco to Santa Clara.</span>
         </div>
-        <div class="text-box-1"><span class="text-size">Silicon Valley's creative powerhouses meet the future, cross-inspiring and empowering each other.</span>
+        <div class="text-box-1 page03_text_box"><span class="text-size">Silicon Valley's creative powerhouses meet the future, cross-inspiring and empowering each other.</span>
         </div>
-        <div class="text-box-1"><span
+        <div class="text-box-1 page03_text_box"><span
                 class="text-size">Immersive technology experiences provide creative inspiration.</span>
         </div>
 
@@ -175,18 +183,18 @@
         <hr/>
     </div>
 
-    <div style="height: 25px"></div>
+    <div style="height: 17px"></div>
 
 
     <div class="text-list ">
-        <div class="text-box-2"><span
+        <div class="text-box-2  page03-text-box-margin"><span
                 class="text-size">Content creation for Animation, Film, and Television</br>
             7 Powers of Creating forums</br>
             Gaming</br>YouTube Shows & Movies</br>Virtual Realities / Roleplaying</br>
             Motion Comics / Animation</br>Storytelling</br>Community Building</br>
             Creating Powerful Apps</br></span>
         </div>
-        <div class="text-box-2"><span
+        <div class="text-box-2 page03-text-box-margin"><span
                 class="text-size">All Participants Creation</br>Robotics</br>
             Immersive Projection & Environments</br>Power of Music in Media</br>Wearable Technologies</br>
             Self-Driving Cars</br>Youth Media Showcase</br>Innovation By Design</br>
@@ -223,10 +231,10 @@
 
 </section>
 
-<section class="page05">
+<section class="page05 white-background">
 
     <div class="text-list">
-        <div style="height: 30px"></div>
+        <div style="height: 50px"></div>
 
         <div style="width: 990px;">
             <span class="p_page03_title1">What is Picture the Possibilities?</span>
@@ -238,24 +246,26 @@
 
     <div class="text-list">
         <hr/>
-              <span class="ptp-logo">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img
-                      src="images/sb_ptplogo_100.jpg"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span>
+              <span class="ptp-logo">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img
+                      src="images/sb_ptplogo_100.jpg"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
 
         <hr/>
     </div>
 
 
     <div class="img-list">
-        <div class="img-box"><span class="img-size-3"><img
+        <div class="img-box"><span class="img-size-3 page05-img-left-margin"><img
                 src="images/08_mexico%20city%20ptp%20season%202-u233-fr.jpg"/> </span>
 
         </div>
 
-        <div class="img-box"><span class="img-size-3"><a href="#"><img
+        <div class="img-box"><span class="img-size-3 page05-img-right-margin"><a href="#"><img
                 src="images/07_img_1847%20-%20copy-u234-fr.jpg"/></a></span></div>
 
 
     </div>
+
+    <div style="height: 10px"></div>
 
     <div class="text-list ">
 
@@ -265,7 +275,7 @@
         </div>
 
 
-        <div class="text-box-7"><span
+        <div class="text-box-6"><span
                 class="text-size-1">PTP Youth (in city sessions around the globe) learn the 7 Powers of Creating program that teaches them how to create anything from art to science. They practice this power by making films (with mentors) on content vital to global youth. Seeing how to bring a picture from nothing into reality, they can then apply this creative process to other areas of their lives and dreams. PTP also creates personal profiles on each participant sharing their stories and dreams with the world.</span>
         </div>
 
@@ -275,17 +285,18 @@
 
 </section>
 
-<section class="page06">
+<section class="page06 white-background">
 
-    <div style="height: 30px"></div>
+    <div style="height: 50px"></div>
 
     <div class="img-list">
-        <div class="img-box"><span class="img-size-3"><img
+        <div class="img-box"><span class="img-size-3 page05-img-left-margin"><img
                 src="images/10_ea_monday_cinequest2014-1_lgcrop-u251-fr.jpg"/> </span>
 
         </div>
 
-        <div class="img-box"><span class="img-size-3"><img
+
+        <div class="img-box"><span class="img-size-3 page05-img-right-margin"><img
                 src="images/11_dsc00317-u252-fr.jpg"/></span></div>
 
 
@@ -293,22 +304,22 @@
 
     <div class="text-list">
         <hr/>
-        <span class="page03_title01_font"> Creative Experiences Include:  </span>
+        <span class="page03_title01_font"> Picture the Possibilities Summit:  </span>
         <hr/>
     </div>
 
-    <div style="height: 10px"></div>
+    <div style="height: 20px"></div>
 
     <div class="text-box-6"><span
             class="text-size-1">The annual Picture the Possibilities Summit is part of <span class="p_page06_title1">CREATICS</span>. PTP youth, from around the world, converge in Silicon Valley to connect with leaders, company employees and global luminaries to share their creations and empower each other. Ultimately, PTP empowers global youth with the creativity and innovations to improve worlds and create their dreams.</span>
     </div>
 
-    <div style="height: 50px"></div>
+    <div style="height: 60px"></div>
 
 
     <div class="text-box-7"><p
             class="text-size-2">"CINEQUEST empowers EVERYONE... The students and the staff from Central Park East Middle
-        School in Harlem are honored to have worked with this FABULOUS ORGANIZATION. We will never be the same after the
+        School in Harlem are </br>honored to have worked with this FABULOUS ORGANIZATION. We will never be the same after the
         wonderful Journey you took us on. Picturing the possibilities... CINEQUEST you gave our young people the
         opportunity to take their words on paper and make it real...</p>
     </div>
@@ -321,10 +332,10 @@
         around the world!"</p>
     </div>
 
-    <div style="height: 20px"></div>
+
 
     <div class="text-box-7"><p
-            class="text-size-2">- Ms. Terri Miles, SPINS 4 Coordinator</p>
+            class="text-size-2" style=" font-style: italic;">- Ms. Terri Miles, SPINS 4 Coordinator</p>
     </div>
 
 </section>
@@ -335,31 +346,31 @@
 
 </section>
 
-<section class="page08">
+<section class="page08 black-background">
 
     <div class="text-list">
-        <div style="height: 30px"></div>
+        <div style="height: 60px"></div>
 
-        <div class="col-lg-12" style="width: 990px;">
+        <div class="col-lg-12" style="width: 990px; color: #ffffff;" >
             <span class="p_page03_title2"> CREATICS</span><span
                 class="p_page03_title1"> + PICTURE THE POSSIBILITIES</span>
         </div>
 
-        <div class="col-lg-12" style="width: 990px;">
+        <div class="col-lg-12" style="width: 990px; color: #ffffff;" >
             <span class="p_page03_title1 p_page08_title1">MARKET, IMPACT, SCALE</span>
         </div>
 
     </div>
-    <div style="height: 20px"></div>
+    <div style="height: 30px"></div>
 
     <div class="text-list ">
-        <div class="text-box-2"><span
-                class="text-size">DEMOGRAPHICS</br></br>15-25 (90%); Luminaries/Leaders (10%)</br>
+        <div class="text-box-2 page08-text-box-width"><span
+                class="text-size page08-text-size" style="color: #ffffff"><span class="page08-text-size-title">DEMOGRAPHICS</span></br></br>15-25 (90%); Luminaries/Leaders (10%)</br>
             50% Media & Media Tech Fans with Klout Influencer Scores of </br>50+
-50% Designers, Media Creators, Scientists, Artists, Technologists  </span>
+            50% Designers, Media Creators, Scientists, Artists, Technologists  </span>
         </div>
-        <div class="text-box-2"><span
-                class="text-size">2015 SCALE AND IMPACT </br></br>6M+ Global Youth Impacted</br>
+        <div class="text-box-2 page08-text-box-width"><span
+                class="text-size page08-text-size" style="color: #ffffff"><span class="page08-text-size-title">2015 SCALE AND IMPACT</span> </br></br>6M+ Global Youth Impacted</br>
             2M+ reached via Social Media</br>
             1M+ reached with CREATICS live streams</br>
             3M+ reached via PTP YouTube videos</br>
@@ -373,11 +384,11 @@
 
     <div class="text-list">
         <hr/>
-        <span class="page03_title01_font"> Cinequest Leadership  </span>
+        <span class="page08_title01_font"> Cinequest Leadership  </span>
         <hr/>
     </div>
 
-
+    <div style="height: 10px"></div>
     <div class="img-list">
         <div class="img-box"><span class="img-size-4"><img
                 src="images/halfdan_photo_1000.jpg"/> </span>
@@ -387,9 +398,11 @@
         <div class="img-box"><span class="img-size-4"><a href="#"><img
                 src="images/kathleen_photo_1000.jpg"/></a></span></div>
 
-        <div class="text-box-2"><span
-                class="text-size">"Strength comes from the people involved and how great their passion and skills are. The leaders of CINEQUEST have both of those. That's why it's been with us for some time and will still be here long into the future."</br></br>
-            - Steve Wozniak, Co-Founder, Apple Inc</span>
+        <div class="text-box-8"> <span
+                class="text-size-4" >"Strength comes from the people involved and how great their passion and skills are. The leaders of CINEQUEST have both of those. That's why it's been with us for some time and will still be here long into the future."<span  class="text-size-4" style="font-style: italic ">- Steve Wozniak, Co-Founder, Apple Inc</span>
+           </span>
+
+
         </div>
 
 
@@ -397,11 +410,11 @@
 
     <div class="text-list">
 
-        <div class="text-box-1"><span class="text-size">Halfdan Hussey</br>
+        <div id="text-box-9"><span id="text-size-5" style="color: #ffffff">Halfdan Hussey</br>
             Director, Co-Founder</span>
         </div>
         <div class="text-box-1"><span
-                class="text-size">Kathleen J. Powell</br>President, Co-Founder</span>
+                class="text-size" style="color: #ffffff">Kathleen J. Powell</br>President, Co-Founder</span>
         </div>
         <div class="text-box-1"><span class="text-size"></span>
         </div>
@@ -413,28 +426,32 @@
 </section>
 
 
-<section class="page08">
+<section class="page09 black-background">
 
-    <div style="height: 30px"></div>
+    <div style="height: 80px"></div>
+
+
 
     <div class="text-list">
         <hr/>
-        <span class="page03_title01_font"> Contact / Join Us! </span>
+        <span class="page08_title01_font"> Contact / Join Us! </span>
         <hr/>
     </div>
 
+    <div style="height: 30px"></div>
+
     <form role="form">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input  class="form-control center-block" id="exampleInputname" placeholder="Enter Name">
+        </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control center-block" id="exampleInputEmail1" placeholder="Enter email">
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control center-block" id="exampleInputPassword1" placeholder="Password">
-        </div>
 
         <label>Message</label>
-        <textarea class="form-control center-block" rows="3"></textarea>
+        <textarea class="form-control center-block" rows="3" placeholder="Enter Your Message"></textarea>
 
         <div style="height: 20px"></div>
 
@@ -443,45 +460,22 @@
     </form>
 
 
-    <div style="height: 20px"></div>
+    <div style="height: 80px"></div>
 
-    <footer class="row">
+    <div id="img-box-5">
 
 
         <p><img src="images/cqlogo_rgb_200px_red.png"/> © 2014 Cinequest. All Rights Reserved.</p>
-    </footer>
-
-
-    <!-- Part 1: Wrap all page content here -->
-    <div id="wrap">
-
-        <!-- Begin page content -->
-        <div class="container">
-            <div class="page-header">
-                <h1>Sticky footer</h1>
-            </div>
-            <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom
-                HTML and CSS.</p>
-
-            <p>Use <a href="./sticky-footer-navbar.html">the sticky footer</a> with a fixed navbar if need be, too.</p>
-        </div>
-
-        <div id="push"></div>
     </div>
 
-    <div id="footer">
-        <div class="container">
-            <p class="muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a
-                    href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
-        </div>
-    </div>
+
 
 
 </section>
 
 
 </div>
-<a class="back" href="">Back to The Pete Design</a>
+<a class="back" >Back to The Top</a>
 
 </div>
 </body>
