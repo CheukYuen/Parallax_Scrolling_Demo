@@ -213,6 +213,7 @@ code.js {
 
 .back:hover {
     color: black;
+    cursor:pointer;
     background: rgba(255, 255, 255, 0.5);
 }
 
@@ -269,9 +270,7 @@ header {
     text-align: center;
 }
 
-.main section.page2 {
-    background: #555557 url(back-phone.png) no-repeat center -150px;
-}
+
 
 .main section.page2 > img {
     position: absolute;
@@ -306,9 +305,7 @@ header {
     color: #FFF;
 }
 
-.main section.page3 {
-    background: url(tilted-phone.png) no-repeat 156px -150px;
-}
+
 
 .main section.page3 .page_container {
     overflow: hidden;

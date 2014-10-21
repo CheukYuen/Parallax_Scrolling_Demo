@@ -1,17 +1,17 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>jQuery One Page Scroll</title>
     <meta name="title" content="jQuery One Page Scroll by Leon Lin"/>
     <meta name="description"
           content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin"/>
 
-    <meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url"/>
-    <meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image"/>
-    <link rel="shortcut icon" id="favicon" href="favicon.png">
-    <meta name="author" content="Pete R.">
-    <link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html"/>
+
+    <meta name="author" content="Leon Lin">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
     <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
@@ -37,22 +37,28 @@
           content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
     <script>
+
+//        (function (autoswitch) {
+//            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase())) {
+//                autoswitch.location.href = 'index_mobile.html';
+//            }
+//        })(window);
+
         $(document).ready(function () {
             $(".main").onepage_scroll({
                 sectionContainer: "section",
                 responsiveFallback: false,
                 loop: true
             });
-        });
 
 
-        $(document).ready(function () {
-
-            $('.back').click(function (e) {
+            $('.back').click(function () {
                 $.fn.moveTo(1);
             });
-
         });
+
+
+
 
     </script>
 </head>
@@ -65,7 +71,7 @@
     <div class="bg">
     </div>
 
-    <div style="height: 50px"></div>
+    <div style="height: 80px"></div>
 
 
     <div class="img-list">
@@ -147,7 +153,6 @@
                 src="images/06_img_4713%202-u163-fr.jpg"/> </span>
 
         </div>
-
         <div class="img-box page03-img-box"><span class="img-size"><a href="#"><img
                 src="images/05_prisons%20to%20paradise%20-%20approved-u164-fr.jpg"/></a></span></div>
 
@@ -319,7 +324,8 @@
 
     <div class="text-box-7"><p
             class="text-size-2">"CINEQUEST empowers EVERYONE... The students and the staff from Central Park East Middle
-        School in Harlem are </br>honored to have worked with this FABULOUS ORGANIZATION. We will never be the same after the
+        School in Harlem are </br>honored to have worked with this FABULOUS ORGANIZATION. We will never be the same
+        after the
         wonderful Journey you took us on. Picturing the possibilities... CINEQUEST you gave our young people the
         opportunity to take their words on paper and make it real...</p>
     </div>
@@ -331,7 +337,6 @@
             class="text-size-2">Cinequest you made it possible for them to make a difference in the lives of everyone
         around the world!"</p>
     </div>
-
 
 
     <div class="text-box-7"><p
@@ -351,12 +356,12 @@
     <div class="text-list">
         <div style="height: 60px"></div>
 
-        <div class="col-lg-12" style="width: 990px; color: #ffffff;" >
+        <div class="col-lg-12" style="width: 990px; color: #ffffff;">
             <span class="p_page03_title2"> CREATICS</span><span
                 class="p_page03_title1"> + PICTURE THE POSSIBILITIES</span>
         </div>
 
-        <div class="col-lg-12" style="width: 990px; color: #ffffff;" >
+        <div class="col-lg-12" style="width: 990px; color: #ffffff;">
             <span class="p_page03_title1 p_page08_title1">MARKET, IMPACT, SCALE</span>
         </div>
 
@@ -365,12 +370,14 @@
 
     <div class="text-list ">
         <div class="text-box-2 page08-text-box-width"><span
-                class="text-size page08-text-size" style="color: #ffffff"><span class="page08-text-size-title">DEMOGRAPHICS</span></br></br>15-25 (90%); Luminaries/Leaders (10%)</br>
+                class="text-size page08-text-size" style="color: #ffffff"><span class="page08-text-size-title">DEMOGRAPHICS</span></br></br>
+            15-25 (90%); Luminaries/Leaders (10%)</br>
             50% Media & Media Tech Fans with Klout Influencer Scores of </br>50+
             50% Designers, Media Creators, Scientists, Artists, Technologists  </span>
         </div>
         <div class="text-box-2 page08-text-box-width"><span
-                class="text-size page08-text-size" style="color: #ffffff"><span class="page08-text-size-title">2015 SCALE AND IMPACT</span> </br></br>6M+ Global Youth Impacted</br>
+                class="text-size page08-text-size" style="color: #ffffff"><span class="page08-text-size-title">2015 SCALE AND IMPACT</span> </br></br>
+            6M+ Global Youth Impacted</br>
             2M+ reached via Social Media</br>
             1M+ reached with CREATICS live streams</br>
             3M+ reached via PTP YouTube videos</br>
@@ -399,7 +406,8 @@
                 src="images/kathleen_photo_1000.jpg"/></a></span></div>
 
         <div class="text-box-8"> <span
-                class="text-size-4" >"Strength comes from the people involved and how great their passion and skills are. The leaders of CINEQUEST have both of those. That's why it's been with us for some time and will still be here long into the future."<span  class="text-size-4" style="font-style: italic ">- Steve Wozniak, Co-Founder, Apple Inc</span>
+                class="text-size-4">"Strength comes from the people involved and how great their passion and skills are. The leaders of CINEQUEST have both of those. That's why it's been with us for some time and will still be here long into the future."<span
+                class="text-size-4 text-size-4-italic">- Steve Wozniak, Co-Founder, Apple Inc</span>
            </span>
 
 
@@ -410,13 +418,13 @@
 
     <div class="text-list">
 
-        <div id="text-box-9"><span id="text-size-5" style="color: #ffffff">Halfdan Hussey</br>
+        <div class="text-box-9"><span id="text-size-5" style="color: #ffffff ;padding: 0 0 0 60px ">Halfdan Hussey</br>
             Director, Co-Founder</span>
         </div>
-        <div class="text-box-1"><span
-                class="text-size" style="color: #ffffff">Kathleen J. Powell</br>President, Co-Founder</span>
+        <div class="text-box-9"><span
+                class="text-size" style="color: #ffffff;padding: 0 0 0 20px">Kathleen J. Powell</br>President, Co-Founder</span>
         </div>
-        <div class="text-box-1"><span class="text-size"></span>
+        <div class="text-box-9"><span class="text-size">&nbsp</span>
         </div>
 
 
@@ -428,8 +436,7 @@
 
 <section class="page09 black-background">
 
-    <div style="height: 80px"></div>
-
+    <div style="height: 150px"></div>
 
 
     <div class="text-list">
@@ -438,12 +445,12 @@
         <hr/>
     </div>
 
-    <div style="height: 30px"></div>
+    <div style="height: 40px"></div>
 
-    <form role="form">
+    <form role="form" class="text-list">
         <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
-            <input  class="form-control center-block" id="exampleInputname" placeholder="Enter Name">
+            <input class="form-control center-block" id="exampleInputname" placeholder="Enter Name">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -453,7 +460,7 @@
         <label>Message</label>
         <textarea class="form-control center-block" rows="3" placeholder="Enter Your Message"></textarea>
 
-        <div style="height: 20px"></div>
+        <div style="height: 30px"></div>
 
         <button type="submit" class="btn btn-default">Submit</button>
 
@@ -462,20 +469,18 @@
 
     <div style="height: 80px"></div>
 
-    <div id="img-box-5">
+    <div class="text-list" id="img-box-5">
 
 
         <p><img src="images/cqlogo_rgb_200px_red.png"/> © 2014 Cinequest. All Rights Reserved.</p>
     </div>
 
 
-
-
 </section>
 
 
 </div>
-<a class="back" >Back to The Top</a>
+<a class="back">Back to The Top</a>
 
 </div>
 </body>

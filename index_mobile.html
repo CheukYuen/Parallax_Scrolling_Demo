@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>jQuery One Page Scroll</title>
+    <meta name="title" content="jQuery One Page Scroll by Leon Lin"/>
+    <meta name="description"
+          content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin"/>
+
+
+    <meta name="author" content="Leon Lin">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+    <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+    <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <!--My project from here-->
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom_mobile.css" rel="stylesheet">
+
+    <!-- javascript -->
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    <meta name="viewport"
+          content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <script>
+
+
+        $(document).ready(function () {
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                responsiveFallback: false,
+                loop: true
+            });
+
+
+            $('.back').click(function () {
+                $.fn.moveTo(1);
+            });
+        });
+
+
+    </script>
+</head>
+<body>
+<div class="wrapper">
+<div class="main">
+
+
+<section class="page01">
+    <div class="page-content">
+
+        <div class="container-fluid">
+
+            <img src="images/cqlogo_rgb_500px_red.png" class="img-responsive center-block"
+                 alt="Responsive image">
+
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <p class="p_page01_title1 ">
+                        presents
+                    </p>
+
+                    <p class=" p_page01_title2 page01_creatics">CREATICS</p>
+
+                    <p class="p_page01_text">A vanguard organization that fuses
+                        creativity with</br>technological innovation to empower, improve,</br>
+                        and transform the lives of people and communities worldwide</p>
+
+                    <img src="images/go_arrow_down.png" class="img-responsive center-block"
+                         alt="Responsive image">
+
+                    <p class="p_page01_text page01_digital">Digital natives experience the power
+                        of </br>creativity,
+                        media, and inspiring</br>
+                        technology.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="page02">
+
+
+</section>
+
+<section class=" page03 white-background">
+    <div class="page-content">
+        <div class="container-fluid  ">
+            <div class="row">
+
+                <div class="col-xs-12 ">
+
+                    <span class="p_page03_title1">What is</span><span class="p_page03_title2"> CREATICS?</span>
+
+                    <img src="images/06_img_4713%202-u163-fr.jpg" class="img-responsive center-block"
+                         alt="Responsive image">
+
+                </div>
+                <p class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                    Three days of global youth experiencing creative opportunities, inspirational luminaries,
+                    plus empowering media and technologies.
+
+                </p>
+
+                <div class="col-xs-12 ">
+
+                    <img src="images/05_prisons%20to%20paradise%20-%20approved-u164-fr.jpg"
+                         class="img-responsive center-block"
+                         alt="Responsive image">
+
+                    <div class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                        Multiple venues from San Francisco to Santa Clara.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class=" page04 white-background">
+    <div class="page-content">
+        <div class="container-fluid  ">
+            <div class="row">
+
+                <div class="col-xs-12 ">
+                    <span class="p_page03_title1">What is</span><span class="p_page03_title2"> CREATICS?</span>
+
+                    <img src="images/03_dsc0959_lgcrop-u165-fr.jpg" class="img-responsive center-block"
+                         alt="Responsive image">
+
+                </div>
+                <p class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                    Silicon Valley's creative powerhouses meet the future, cross-inspiring and empowering each
+                    other.
+
+                </p>
+
+                <div class="col-xs-12 ">
+
+                    <img src="images/04_mg_cq22-1061-u166-fr.jpg"
+                         class="img-responsive center-block"
+                         alt="Responsive image">
+
+                    <div class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                        Immersive technology experiences provide creative inspiration.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class=" page05 white-background">
+    <div class="page-content">
+        <div class="container-fluid  ">
+            <div class="row">
+
+                <div class="col-xs-12 ">
+                    <span class="p_page03_title1">What is</span><span class="p_page03_title2"> CREATICS?</span>
+
+                    <span class="page03_title01_font"> Creative Experiences Include  </span>
+
+
+                </div>
+                <p class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                    Content creation for Animation, Film, and Television</br>
+                    7 Powers of Creating forums</br>
+                    Gaming</br>YouTube Shows & Movies</br>Virtual Realities / Roleplaying</br>
+                    Motion Comics / Animation</br>Storytelling</br>Community Building</br>
+                    Creating Powerful Apps</br>
+
+                </p>
+
+                <div class="col-xs-12 ">
+
+
+                    <div class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                        All Participants Creation</br>Robotics</br>
+                        Immersive Projection & Environments</br>Power of Music in Media</br>Wearable Technologies</br>
+                        Self-Driving Cars</br>Youth Media Showcase</br>Innovation By Design</br>
+                        Astounding Story of Physics</br>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="page06">
+
+
+</section>
+
+
+<section class="page07 white-background">
+    <div class="page-content">
+        <div class="container-fluid  ">
+            <div class="row">
+
+
+                <div class="col-xs-12 ">
+                    <span class="p_page07_title1">What is Picture the Possibilities?</span>
+
+                    <img src="images/08_mexico%20city%20ptp%20season%202-u233-fr.jpg" class="img-responsive center-block"
+                         alt="Responsive image">
+
+                </div>
+                <p class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                    Silicon Valley's creative powerhouses meet the future, cross-inspiring and empowering each
+                    other.
+
+                </p>
+
+                <div class="col-xs-12 ">
+
+                    <img src="images/07_img_1847%20-%20copy-u234-fr.jpg"
+                         class="img-responsive center-block"
+                         alt="Responsive image">
+
+                    <div class=" col-xs-offset-1  col-xs-10  text-size  ">
+
+                        Immersive technology experiences provide creative inspiration.
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+</div>
+<a class="back">Back to The Top</a>
+
+</div>
+</body>
+</html>
