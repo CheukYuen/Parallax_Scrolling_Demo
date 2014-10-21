@@ -291,6 +291,10 @@ p {
 
 }
 
+.page08 .text-size{
+    color: #ffffff
+}
+
 .page08-text-size{
     line-height: 22px;
     font-size: 18px;
@@ -355,7 +359,9 @@ p {
     line-height: 18px;
     font-size: 15px;
     font-weight: 700;
-    padding-right: 40px;
+
+    color: #ffffff ;
+    padding: 0 0 0 60px;
 }
 
 hr {

@@ -58,11 +58,29 @@ img {
 
 }
 
+.page09 {
+
+    background: url("../images/12_ci-0452_lgcrop.jpg") center;
+    background-size: cover;
+
+}
+.page10 p{
+    color: #ffffff;
+}
+
 .p_page03_title1 {
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 25px;
+    line-height: 25px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.p_page06_title1 {
+    font-size: 17px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+
 }
 
 .p_page07_title1 {
@@ -80,6 +98,8 @@ img {
 
 }
 
+
+
 .page03_title01_font {
     font-size: 15px;
     line-height: 18px;
@@ -87,6 +107,34 @@ img {
     font-weight: 700;
 
 }
+
+.page10 .p_page03_title2{
+    color: #ffffff;
+}
+
+.page10 .p_page03_title1{
+    color: #ffffff;
+}
+
+.page10-title-size{
+    font-weight: 700;
+}
+
+.page11 p{
+    color: #ffffff;
+
+}
+
+.page12 p {
+    color: #ffffff;
+
+}
+.page12 label{
+    color: #ffffff;
+
+}
+
+
 
 .text-size {
     /*display: table-cell;*/
