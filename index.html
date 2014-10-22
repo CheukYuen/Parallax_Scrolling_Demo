@@ -8,8 +8,7 @@
     <title>jQuery One Page Scroll</title>
     <meta name="title" content="jQuery One Page Scroll by Leon Lin"/>
     <meta name="description"
-          content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin"/>
-
+          content="Create an one page scroller website with One Page Scroll plugin"/>
 
     <meta name="author" content="Leon Lin">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
@@ -38,11 +37,25 @@
 
     <script>
 
-//        (function (autoswitch) {
-//            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase())) {
-//                autoswitch.location.href = 'index_mobile.html';
-//            }
-//        })(window);
+        function y_ipad() {
+            var ua = navigator.userAgent.toLowerCase();
+            var s;
+            s = ua.match(/iPad/i);
+
+            if (s == "ipad") {
+                return true;
+            }
+            else {
+                return false;
+            }
+
+        }
+
+        (function (autoswitch) {
+            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) && !y_ipad() ) {
+                autoswitch.location.href = 'index_mobile.html';
+            }
+        })(window);
 
         $(document).ready(function () {
             $(".main").onepage_scroll({
@@ -58,8 +71,6 @@
         });
 
 
-
-
     </script>
 </head>
 <body>
@@ -67,9 +78,10 @@
 <div class="main">
 
 
-<section class="page01 black-background">
+<section class="page01 black-background ">
     <div class="bg">
     </div>
+
 
     <div style="height: 80px"></div>
 
@@ -121,7 +133,6 @@
 
         </div>
 
-
     </div>
 
 
@@ -137,7 +148,7 @@
 </section>
 
 
-<section class="page03 white-background">
+<section class="page03 white-background ">
     <div class="text-list">
         <div style="height: 30px"></div>
 
@@ -370,13 +381,14 @@
 
     <div class="text-list ">
         <div class="text-box-2 page08-text-box-width"><span
-                class="text-size page08-text-size" ><span class="page08-text-size-title">DEMOGRAPHICS</span></br></br>
+                class="text-size page08-text-size"><span class="page08-text-size-title">DEMOGRAPHICS</span></br></br>
             15-25 (90%); Luminaries/Leaders (10%)</br>
             50% Media & Media Tech Fans with Klout Influencer Scores of </br>50+
             50% Designers, Media Creators, Scientists, Artists, Technologists  </span>
         </div>
         <div class="text-box-2 page08-text-box-width"><span
-                class="text-size page08-text-size"><span class="page08-text-size-title">2015 SCALE AND IMPACT</span> </br></br>
+                class="text-size page08-text-size"><span
+                class="page08-text-size-title">2015 SCALE AND IMPACT</span> </br></br>
             6M+ Global Youth Impacted</br>
             2M+ reached via Social Media</br>
             1M+ reached with CREATICS live streams</br>
@@ -418,7 +430,7 @@
 
     <div class="text-list">
 
-        <div class="text-box-9"><span id="text-size-5" >Halfdan Hussey</br>
+        <div class="text-box-9"><span id="text-size-5">Halfdan Hussey</br>
             Director, Co-Founder</span>
         </div>
         <div class="text-box-9"><span
@@ -434,7 +446,7 @@
 </section>
 
 
-<section class="page09 black-background">
+<section class="page09 black-background ">
 
     <div style="height: 150px"></div>
 
