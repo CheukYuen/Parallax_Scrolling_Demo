@@ -51,11 +51,23 @@
 
         }
 
-        (function (autoswitch) {
-            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) && !y_ipad()) {
-                autoswitch.location.href = 'index_mobile.html';
-            }
-        })(window);
+
+                (function (autoswitch) {
+
+                    if(y_ipad()){
+                        autoswitch.location.href = 'index_tablet.html';
+
+                    }
+                    else if(/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) ){
+                        autoswitch.location.href = 'index_mobile.html';
+                    }
+                })(window);
+
+//        (function (autoswitch) {
+//            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) && !y_ipad()) {
+//                autoswitch.location.href = 'index_mobile.html';
+//            }
+//        })(window);
 
         $(document).ready(function () {
             $(".main").onepage_scroll({
