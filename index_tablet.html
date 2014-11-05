@@ -15,9 +15,15 @@
     <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
     <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
     <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
-    <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-    <link href='style.css' rel='stylesheet' type='text/css'>
+    <!--<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>-->
+    <!--<link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>-->
+
+
+    <script type="text/javascript" src="js/purejs.onepage-scroll.js"></script>
+    <link href='css/purejs.onepage-scroll.css' rel='stylesheet' type='text/css'>
+
+
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
     <!--My project from here-->
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
@@ -37,46 +43,22 @@
 
     <script>
 
-        //        function y_ipad() {
-        //            var ua = navigator.userAgent.toLowerCase();
-        //            var s;
-        //            s = ua.match(/iPad/i);
-        //
-        //            if (s == "ipad") {
-        //                return true;
-        //            }
-        //            else {
-        //                return false;
-        //            }
-        //
-        //        }
-        //
-        //        (function (autoswitch) {
-        //
-        //            if(y_ipad()){
-        //                autoswitch.location.href = 'index_tablet.html';
-        //
-        //            }
-        //            else if(/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) ){
-        //                autoswitch.location.href = 'index_mobile.html';
-        //            }
-        //        })(window);
 
-        $(document).ready(function () {
-            $(".main").onepage_scroll({
-                sectionContainer: "section",
-                easing: "ease",
-                responsiveFallback: false,
-                animationTime: 1000,
-                keyboard: true,
-                loop: true
-            });
-
-
-            $('.back').click(function () {
-                $.fn.moveTo(1);
-            });
-        });
+        //        $(document).ready(function () {
+        //            $(".main").onepage_scroll({
+        //                sectionContainer: "section",
+        //                easing: "ease",
+        //                responsiveFallback: false,
+        //                animationTime: 1000,
+        //                keyboard: true,
+        //                loop: true
+        //            });
+        //
+        //
+        //            $('.back').click(function () {
+        //                $.fn.moveTo(1);
+        //            });
+        //        });
 
 
     </script>
@@ -357,7 +339,7 @@
             <div class="col-xs-6  col-sm-6">
                 <div style="height: 40px"></div>
                 <div class="img-box"><span class="img-size-3 "><img
-                        src="images/11_dsc00317-u252-fr.jpg" class="img-responsive" /></span></div>
+                        src="images/11_dsc00317-u252-fr.jpg" class="img-responsive"/></span></div>
 
             </div>
 
@@ -573,5 +555,20 @@
 <a class="back">Back to The Top</a>
 
 </div>
+<script>
+    onePageScroll(".main", {
+        sectionContainer: "section",
+        loop: true,
+        responsiveFallback: false
+    });
+
+    $(document).ready(function () {
+
+        $('.back').click(function () {
+            moveTo(".main", 1);
+        });
+    });
+
+</script>
 </body>
 </html>

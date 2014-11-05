@@ -15,9 +15,9 @@
     <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
     <!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
     <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
-    <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-    <link href='style.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
     <!--My project from here-->
     <!-- Bootstrap -->
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
@@ -52,27 +52,27 @@
         }
 
 
-                (function (autoswitch) {
+        (function (autoswitch) {
 
-                    if(y_ipad()){
-                        autoswitch.location.href = 'index_tablet.html';
+            if (y_ipad()) {
+                autoswitch.location.href = 'index_tablet.html';
 
-                    }
-                    else if(/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) ){
-                        autoswitch.location.href = 'index_mobile.html';
-                    }
-                })(window);
+            }
+            else if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase())) {
+                autoswitch.location.href = 'index_mobile.html';
+            }
+        })(window);
 
-//        (function (autoswitch) {
-//            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) && !y_ipad()) {
-//                autoswitch.location.href = 'index_mobile.html';
-//            }
-//        })(window);
+        //        (function (autoswitch) {
+        //            if (/midp|wap|mobile/i.test(navigator.userAgent.toLowerCase()) && !y_ipad()) {
+        //                autoswitch.location.href = 'index_mobile.html';
+        //            }
+        //        })(window);
 
         $(document).ready(function () {
             $(".main").onepage_scroll({
                 sectionContainer: "section",
-                responsiveFallback: false,
+//                responsiveFallback: false,
                 loop: true
             });
 

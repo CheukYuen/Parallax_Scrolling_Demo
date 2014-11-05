@@ -8,6 +8,10 @@ body {
     max-height: 90%
 }
 
+.onepage-pagination{
+    top:35%;
+}
+
 .bg {
     background: url('../images/01_02_real friends_2.jpg') no-repeat center center;
     background-size: cover;

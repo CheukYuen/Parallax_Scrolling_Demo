@@ -231,13 +231,13 @@
                 }
 
 
-                el.swipeEvents().bind("swipeDown",function (event) {
+                el.swipeEvents().bind("swipeDown", function (event) {
                     if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
                     el.moveUp();
                 }).bind("swipeUp", function (event) {
-                        if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
-                        el.moveDown();
-                    });
+                    if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
+                    el.moveDown();
+                });
 
                 $(document).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function (event) {
                     event.preventDefault();
@@ -296,13 +296,13 @@
             }
         });
 
-        el.swipeEvents().bind("swipeDown",function (event) {
+        el.swipeEvents().bind("swipeDown", function (event) {
             if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
             el.moveUp();
         }).bind("swipeUp", function (event) {
-                if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
-                el.moveDown();
-            });
+            if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
+            el.moveDown();
+        });
 
         // Create Pagination and Display Them
         if (settings.pagination == true) {
