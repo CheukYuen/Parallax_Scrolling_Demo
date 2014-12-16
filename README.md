@@ -1,3 +1,14 @@
+#Cinequest One Page Scroll by leon Lin.
+
+Cinequest parallax scrolling page is a javascript version of One Page Scroll. This page was created by Pure JS One Page Scroll plugin by Pete R..
+
+##Compatibility
+
+Desktop:Chrome, Firefox, IE11, and Safari have been tested
+Tablets: Ipad Chrome and Safari have been tested. Not tested on Android tablet.
+Smartphone: Iphone5 and Iphone5s have been tested.
+
+
 #Pure JS One Page Scroll by Pete R.
 Pure JS One Page Scroll is a javascript version of [One Page Scroll](https://github.com/peachananr/onepage-scroll). The plugin will let you create an Apple-like one page scroll website (iPhone 5S website) **without replying on jQuery**.
 
