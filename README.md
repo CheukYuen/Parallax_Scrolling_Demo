@@ -4,9 +4,7 @@ Cinequest parallax scrolling page is a javascript version of One Page Scroll. Th
 
 ##Compatibility
 
-Desktop:Chrome, Firefox, IE11, and Safari have been tested
-Tablets: Ipad Chrome and Safari have been tested. Not tested on Android tablet.
-Smartphone: Iphone5 and Iphone5s have been tested.
+Desktop:Chrome, Firefox, IE11, and Safari have been tested. Tablets:Ipad Chrome and Safari have been tested. Not tested on Android tablet. Smartphone:Iphone5 and Iphone5s have been tested.
 
 
 #Pure JS One Page Scroll by Pete R.
