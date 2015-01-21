@@ -1,0 +1,11 @@
+{
+  "name": "parallax-scrolling-demo",
+  "description": "Cinequest project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.8"
+  }
+}
